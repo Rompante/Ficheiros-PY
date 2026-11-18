@@ -2,8 +2,6 @@ import json
 ficheiro = ("nomes.txt")
 
 
-
-
 with open("dados.txt","r") as f:
     lista = f.readlines()
     for linha in lista:
